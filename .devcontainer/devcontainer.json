@@ -1,0 +1,7 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/jpawlowski/devcontainer-features/powershell-extended:2": {},
+		"ghcr.io/devcontainer-config/features/dot-config:4": {}
+	}
+}
