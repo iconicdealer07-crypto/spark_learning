@@ -1,4 +1,6 @@
-numpy
-pandas
-pyspark
-sqlite-database
+pyspark>=3.4.0
+findspark>=2.0.1
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
