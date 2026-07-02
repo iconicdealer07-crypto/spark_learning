@@ -1,0 +1,15 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/jpawlowski/devcontainer-features/powershell-extended:2": {},
+		"ghcr.io/devcontainer-config/features/dot-config:4": {}
+	},
+	"postCreateCommand": "echo 'source /workspaces/spark_learning/.venv/bin/activate' >> ~/.bashrc && echo '. /workspaces/spark_learning/.venv/bin/Activate.ps1' >> ~/.profile",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "/workspaces/spark_learning/.venv/bin/python"
+			}
+		}
+	}
+}
